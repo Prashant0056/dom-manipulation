@@ -25,11 +25,12 @@ li
 
 .container
 {
-    width: 400px;
     border-radius: 20px;
     border: white solid 2px;
     padding: 20px;
     position: absolute;
+    display: flex;
+    gap: 16px;
 }
 
 #heading
@@ -39,4 +40,23 @@ li
 }
 
 
+.boxes
+{
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 50px;
+    border-radius: 20px;
+}
 
+button
+{
+    font-size: 30px;
+    border: 2px white solid;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    padding: 8px;
+    border-radius: 20px;
+
+}
