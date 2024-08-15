@@ -8,16 +8,18 @@
 body
 {
     background-color: black;
+    color: cyan;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
 
-li
+.list-item
 {
     list-style: none;
     background-color: aliceblue;
+    color: black;
     text-align: center;
     margin: 2px;
     font-size: 30px;
@@ -36,6 +38,11 @@ li
 {
     color: white;
     text-align: center;
+}
+
+.new-class
+{
+    color:red
 }
 
 
